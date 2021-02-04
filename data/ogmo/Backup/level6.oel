@@ -1,0 +1,58 @@
+<level>
+  <width>640</width>
+  <height>640</height>
+  <solids>
+    <rect x="0" y="0" w="240" h="200"/>
+    <rect x="0" y="200" w="10" h="440"/>
+    <rect x="10" y="350" w="240" h="20"/>
+    <rect x="10" y="470" w="150" h="30"/>
+    <rect x="10" y="500" w="120" h="140"/>
+    <rect x="130" y="610" w="510" h="30"/>
+    <rect x="160" y="200" w="80" h="90"/>
+    <rect x="300" y="190" w="120" h="30"/>
+    <rect x="300" y="350" w="290" h="20"/>
+    <rect x="300" y="470" w="140" h="30"/>
+    <rect x="330" y="220" w="60" h="130"/>
+    <rect x="330" y="500" w="80" h="110"/>
+    <rect x="570" y="130" w="20" h="220"/>
+    <rect x="570" y="370" w="20" h="100"/>
+    <rect x="630" y="0" w="10" h="610"/>
+  </solids>
+  <extraPlatforms>
+    <level2_spike2 x="160" y="370" width="90" height="10"/>
+    <LargeCrate x="140" y="290"/>
+  </extraPlatforms>
+  <movingPlatforms>
+    <level2_specialBlock x="590" y="130" speed="40" movementType="1">
+      <node x="590" y="540"/>
+    </level2_specialBlock>
+  </movingPlatforms>
+  <BGLayer1>
+    <level2_FMG3 x="180" y="540"/>
+    <level2_FMG3 x="460" y="280"/>
+    <level2_FMG3 x="300" y="120"/>
+    <level2_MG2 x="230" y="110"/>
+  </BGLayer1>
+  <BGLayer2>
+    <level2_tank x="400" y="440"/>
+    <level2_MG2 x="0" y="330"/>
+    <level2_metalPipe x="350" y="0" width="30" height="640"/>
+    <level2_greenPipe x="450" y="0" width="20" height="640"/>
+    <level2_pipe1 x="460" y="550" width="180" height="70"/>
+  </BGLayer2>
+  <objects>
+    <L1_SmallCrate x="302" y="166" width="32"/>
+    <exit x="12" y="280"/>
+  </objects>
+  <characters>
+    <player x="201" y="564" speed="40" movementType="1">
+      <node x="236" y="564"/>
+    </player>
+    <liselot x="16" y="424" speed="40" movementType="1">
+      <node x="54" y="425"/>
+    </liselot>
+  </characters>
+  <FGLayer1>
+    <level2_chainTile x="272" y="2" width="12" height="638"/>
+  </FGLayer1>
+</level>

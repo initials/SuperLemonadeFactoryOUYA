@@ -1,0 +1,39 @@
+<level>
+  <width>1100</width>
+  <height>640</height>
+  <solids>
+    <rect x="0" y="0" w="20" h="640"/>
+    <rect x="20" y="520" w="1080" h="120"/>
+    <rect x="390" y="380" w="20" h="20"/>
+    <rect x="430" y="360" w="30" h="20"/>
+    <rect x="520" y="330" w="120" h="30"/>
+  </solids>
+  <BGLayer1>
+    <noticeBoard x="210" y="400" scrollFactor="0.1"/>
+    <L1_Shelf x="20" y="200" scrollFactor="0.2"/>
+  </BGLayer1>
+  <BGLayer2>
+    <cratesBox x="0" y="340" scrollFactor="0.5"/>
+    <sugarBagsAndCrates x="380" y="390" scrollFactor="0.7"/>
+  </BGLayer2>
+  <BGLayer3>
+    <sodaPack x="330" y="420" scrollFactor="0.2"/>
+  </BGLayer3>
+  <objects>
+    <Bottle x="358" y="334" width="12"/>
+  </objects>
+  <characters>
+    <army x="545" y="476" speed="10" movementType="1">
+      <node x="615" y="476"/>
+    </army>
+    <player x="372" y="476" speed="40" movementType="1" startsFirst="0" levelName="Gently My Hearts Beats" andreInitialFlip="0" liselotInitialFlip="0" followWidth="640" followHeight="640">
+      <node x="424" y="478"/>
+    </player>
+    <liselot x="415" y="475" speed="40" movementType="1">
+      <node x="482" y="477"/>
+    </liselot>
+    <worker x="1017" y="484" speed="15" movementType="1">
+      <node x="1066" y="483"/>
+    </worker>
+  </characters>
+</level>

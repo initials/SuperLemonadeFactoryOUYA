@@ -1,0 +1,40 @@
+<level>
+  <width>960</width>
+  <height>640</height>
+  <solids>
+    <rect x="0" y="0" w="960" h="150"/>
+    <rect x="0" y="470" w="960" h="170"/>
+    <rect x="400" y="300" w="280" h="20"/>
+  </solids>
+  <extraPlatforms>
+    <level3_specialPlatform x="300" y="300" speed="40" movementType="1" animated="0"/>
+  </extraPlatforms>
+  <movingPlatforms>
+    <level3_specialPlatformSmall x="680" y="300" speed="120" movementType="2" animated="1"/>
+  </movingPlatforms>
+  <BGLayer1>
+    <level3_window x="0" y="150" width="320" height="320" scrollFactor="0.2"/>
+    <level3_painting1 x="350" y="350" scrollFactor="0.2"/>
+    <level3_painting2 x="460" y="330" scrollFactor="0.2"/>
+    <level3_painting3 x="570" y="310" scrollFactor="0.2"/>
+  </BGLayer1>
+  <BGLayer3>
+    <level3_desk2 x="410" y="230"/>
+    <level3_desk1 x="560" y="230"/>
+    <level3_desk3 x="460" y="440"/>
+  </BGLayer3>
+  <objects>
+    <L1_SmallCrate x="919" y="447" width="32"/>
+  </objects>
+  <characters>
+    <player x="13" y="428" speed="40" movementType="1">
+      <node x="86" y="417"/>
+    </player>
+    <liselot x="490" y="253" speed="40" movementType="1">
+      <node x="519" y="237"/>
+    </liselot>
+  </characters>
+  <FGLayer1>
+    <level3_desk2 x="842" y="401"/>
+  </FGLayer1>
+</level>

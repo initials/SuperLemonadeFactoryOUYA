@@ -1,0 +1,177 @@
+<level>
+  <width>2500</width>
+  <height>640</height>
+  <solids>
+    <rect x="0" y="180" w="10" h="460"/>
+    <rect x="10" y="510" w="2470" h="20"/>
+    <rect x="10" y="530" w="1930" h="110"/>
+    <rect x="1000" y="480" w="1480" h="30"/>
+    <rect x="1350" y="360" w="150" h="30"/>
+    <rect x="1360" y="230" w="10" h="130"/>
+    <rect x="1480" y="470" w="1000" h="10"/>
+  </solids>
+  <fakesolids>
+    <rect x="20" y="450" w="60" h="60"/>
+  </fakesolids>
+  <extraPlatforms>
+    <level1_specialBlock x="80" y="470" speed="40" movementType="1" animated="0"/>
+    <level1_specialPlatform x="120" y="490" speed="40" movementType="1" animated="0"/>
+    <level1_specialPlatform x="120" y="450" speed="40" movementType="1" animated="0"/>
+    <LargeCrate x="220" y="450"/>
+    <level2_specialBlock x="300" y="470" speed="40" movementType="1" animated="0"/>
+    <level2_specialPlatform x="340" y="450" speed="40" movementType="1" animated="0"/>
+    <level2_specialPlatformSmall x="20" y="400" speed="40" movementType="1" animated="1"/>
+    <level1_specialPlatformSmall x="20" y="380" speed="40" movementType="1" animated="1"/>
+    <level3_specialPlatformSmall x="30" y="360" speed="40" movementType="1" animated="1"/>
+    <level3_specialBlock x="370" y="470" speed="40" movementType="1" animated="0"/>
+    <level3_specialPlatform x="440" y="470" speed="40" movementType="1" animated="0"/>
+    <LargeCrate x="710" y="450"/>
+    <LargeCrate x="810" y="450"/>
+    <LargeCrate x="760" y="390"/>
+    <spike0 x="560" y="350" width="40" height="10"/>
+    <spike2 x="560" y="370" width="40" height="10"/>
+    <spike3 x="550" y="350" width="10" height="30"/>
+    <spike1 x="600" y="350" width="10" height="40"/>
+    <level2_spike0 x="1400" y="350" width="40" height="10"/>
+    <level2_spike2 x="1400" y="390" width="40" height="10"/>
+    <level2_spike3 x="1340" y="360" width="10" height="50"/>
+    <level2_spike1 x="1370" y="250" width="10" height="90"/>
+    <helpBox x="1000" y="420" type="0" helpString="This is a help."/>
+    <helpBox x="1120" y="420" type="0" helpString="help"/>
+    <helpBox x="1240" y="420" type="0" helpString="help"/>
+    <helpBox x="1360" y="420" type="0" helpString="help"/>
+    <helpBox x="1710" y="410" type="0" helpString="help"/>
+    <helpBox x="1710" y="350" type="0" helpString="help"/>
+    <helpBox x="1710" y="290" type="0" helpString="help"/>
+    <helpBox x="1710" y="230" type="0" helpString="help"/>
+  </extraPlatforms>
+  <movingPlatforms>
+    <level1_specialPlatformSmall x="60" y="380" speed="100" movementType="1" animated="1">
+      <node x="190" y="430"/>
+      <node x="190" y="340"/>
+      <node x="240" y="330"/>
+      <node x="240" y="400"/>
+      <node x="240" y="430"/>
+      <node x="290" y="430"/>
+      <node x="600" y="420"/>
+      <node x="600" y="440"/>
+      <node x="600" y="480"/>
+      <node x="670" y="470"/>
+    </level1_specialPlatformSmall>
+    <level2_specialPlatformSmall x="60" y="400" speed="200" movementType="1" animated="1">
+      <node x="170" y="400"/>
+      <node x="360" y="140"/>
+      <node x="590" y="140"/>
+      <node x="1600" y="100"/>
+      <node x="1630" y="220"/>
+      <node x="1200" y="220"/>
+      <node x="1060" y="360"/>
+      <node x="870" y="260"/>
+      <node x="820" y="190"/>
+    </level2_specialPlatformSmall>
+    <level3_specialPlatformSmall x="70" y="360" speed="40" movementType="1" animated="1">
+      <node x="220" y="360"/>
+      <node x="340" y="370"/>
+      <node x="410" y="360"/>
+      <node x="470" y="320"/>
+      <node x="570" y="310"/>
+      <node x="640" y="340"/>
+      <node x="650" y="370"/>
+      <node x="640" y="490"/>
+      <node x="650" y="490"/>
+      <node x="720" y="290"/>
+    </level3_specialPlatformSmall>
+  </movingPlatforms>
+  <BGLayer1>
+    <cratesBox x="120" y="330" scrollFactor="0.5"/>
+    <level1_windows x="190" y="250" width="240" height="54" scrollFactor="0.8"/>
+    <L1_Shelf x="300" y="190" scrollFactor="0.8"/>
+    <level1_shelfTile x="570" y="190" width="160" height="320" scrollFactor="0.9"/>
+    <sugarBagsAndCrates x="880" y="380" scrollFactor="1"/>
+    <level2_window x="750" y="310" width="250" height="50" scrollFactor="1"/>
+    <level2_chainTile x="350" y="0" width="12" height="640" scrollFactor="1"/>
+    <level2_FMG3 x="500" y="240" scrollFactor="1"/>
+    <level2_MG2 x="640" y="340" scrollFactor="0.9"/>
+    <level3_window x="1480" y="150" width="320" height="320" scrollFactor="1"/>
+    <level3_cloud x="1370" y="130" scrollFactor="1.4"/>
+    <level3_MG_pylon x="2070" y="150" scrollFactor="1"/>
+    <level3_spike0 x="2280" y="380" width="30" height="10"/>
+    <level3_spike2 x="2280" y="410" width="30" height="10"/>
+    <level3_spike3 x="2270" y="390" width="20" height="20"/>
+    <level3_spike1 x="2310" y="390" width="10" height="20"/>
+  </BGLayer1>
+  <BGLayer2>
+    <noticeBoard x="100" y="400" scrollFactor="0.2"/>
+    <noticeBoard x="200" y="400" scrollFactor="0.2"/>
+    <noticeBoard x="320" y="390" scrollFactor="0.2"/>
+    <noticeBoard x="450" y="410" scrollFactor="0.2"/>
+    <noticeBoard x="540" y="390" scrollFactor="0.2"/>
+    <noticeBoard x="650" y="430" scrollFactor="0.2"/>
+    <level2_greenPipe x="480" y="0" width="20" height="640" scrollFactor="0.8"/>
+    <level2_metalPipe x="560" y="0" width="30" height="640" scrollFactor="1"/>
+    <level2_tank x="1000" y="210" scrollFactor="1"/>
+    <level2_pipe1 x="0" y="340" width="1420" height="70" scrollFactor="0.2"/>
+  </BGLayer2>
+  <BGLayer3>
+    <palettes x="580" y="470" scrollFactor="0.2"/>
+    <sodaPack x="530" y="490" scrollFactor="0.2"/>
+    <sugarBags x="640" y="470" scrollFactor="0.2"/>
+    <level2_braceLeft x="1370" y="390"/>
+    <level2_braceRight x="1440" y="390"/>
+    <level3_desk1 x="2060" y="400"/>
+    <level3_desk2 x="2180" y="400"/>
+    <level3_desk3 x="1700" y="440"/>
+    <bookCase x="2410" y="380" scrollFactor="0.2"/>
+    <filingCab1 x="2350" y="380" scrollFactor="0.2"/>
+    <filingCab2 x="2310" y="410" scrollFactor="0.2"/>
+    <plant1 x="2040" y="360" scrollFactor="0.2"/>
+    <plant2 x="1280" y="380" scrollFactor="0.2"/>
+    <level3_painting1 x="2110" y="290" scrollFactor="0.2"/>
+    <level3_painting2 x="2200" y="260" scrollFactor="0.2"/>
+    <level3_painting3 x="2310" y="210" scrollFactor="0.2"/>
+    <level3_salesChart x="2290" y="320" width="67" height="67" scrollFactor="0.2"/>
+  </BGLayer3>
+  <objects>
+    <andreCheckPoint x="1598" y="413" player="1"/>
+    <liselotCheckPoint x="1528" y="413" player="1"/>
+    <L1_SmallCrate x="718" y="417" width="32"/>
+    <L1_SmallCrate x="785" y="360" width="32"/>
+    <L1_SmallCrate x="801" y="308" width="32"/>
+    <L1_SmallCrate x="802" y="252" width="32"/>
+    <L1_SmallCrate x="852" y="404" width="32"/>
+    <L1_SmallCrate x="917" y="421" width="32"/>
+    <L1_SmallCrate x="1122" y="270" width="32"/>
+    <L1_SmallCrate x="1177" y="292" width="32"/>
+    <L1_SmallCrate x="1199" y="382" width="32"/>
+    <smallSugarBag x="730" y="371" width="22"/>
+    <smallSugarBag x="733" y="327" width="22"/>
+    <smallSugarBag x="791" y="245" width="22"/>
+    <smallSugarBag x="745" y="234" width="22"/>
+    <smallSugarBag x="768" y="186" width="22"/>
+    <Bottle x="706" y="340" width="12"/>
+    <exit x="1905" y="379"/>
+  </objects>
+  <characters>
+    <player x="390" y="400" speed="40" movementType="1" startsFirst="1" levelName="new level" andreInitialFlip="0" liselotInitialFlip="0" followWidth="0" followHeight="0" talkString="Family is all.">
+      <node x="420" y="410"/>
+    </player>
+    <liselot x="450" y="420" speed="40" movementType="1" talkString="Just say yes.">
+      <node x="500" y="410"/>
+    </liselot>
+    <worker x="1100" y="440" speed="22" movementType="1" talkString="Grumble.">
+      <node x="1240" y="430"/>
+    </worker>
+    <army x="1150" y="430" speed="40" movementType="1" talkString="Attention.">
+      <node x="1200" y="420"/>
+    </army>
+    <chef x="1340" y="430" speed="40" movementType="1" talkString="Hey buddy.">
+      <node x="1390" y="420"/>
+    </chef>
+    <inspector x="1480" y="430" speed="200" movementType="1" talkString="Paperwork.">
+      <node x="1790" y="420"/>
+    </inspector>
+  </characters>
+  <FGLayer1>
+    <level2_chainTile x="233" y="4" width="12" height="636" scrollFactor="2"/>
+  </FGLayer1>
+</level>

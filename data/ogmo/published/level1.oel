@@ -1,0 +1,81 @@
+<level>
+  <width>960</width>
+  <height>420</height>
+  <solids>
+    <rect x="0" y="0" w="10" h="420"/>
+    <rect x="10" y="180" w="840" h="50"/>
+    <rect x="10" y="380" w="950" h="40"/>
+    <rect x="180" y="0" w="40" h="120"/>
+    <rect x="690" y="0" w="40" h="120"/>
+    <rect x="760" y="0" w="200" h="20"/>
+    <rect x="950" y="20" w="10" h="360"/>
+  </solids>
+  <extraPlatforms>
+    <spike0 x="180" y="370" width="140" height="10"/>
+    <level1_specialBlock x="910" y="260" speed="40" movementType="1"/>
+    <level1_specialBlock x="850" y="130" speed="40" movementType="1"/>
+    <spike2 x="400" y="230" width="150" height="10"/>
+    <spike0 x="850" y="120" width="40" height="10"/>
+    <spike0 x="910" y="250" width="40" height="10"/>
+    <spike2 x="850" y="170" width="40" height="10"/>
+    <spike2 x="910" y="300" width="40" height="10"/>
+    <spike3 x="840" y="130" width="10" height="40"/>
+    <spike1 x="890" y="130" width="10" height="40"/>
+    <spike3 x="900" y="260" width="10" height="40"/>
+    <spike0 x="400" y="170" width="150" height="10"/>
+    <LargeCrate x="670" y="120"/>
+    <LargeCrate x="160" y="120"/>
+  </extraPlatforms>
+  <movingPlatforms>
+    <level1_specialBlock x="180" y="330" speed="40" movementType="2">
+      <node x="280" y="330"/>
+    </level1_specialBlock>
+    <level1_specialPlatform x="850" y="70" speed="80" movementType="1">
+      <node x="850" y="360"/>
+    </level1_specialPlatform>
+    <level1_specialBlock x="400" y="130" speed="40" movementType="2">
+      <node x="510" y="130"/>
+    </level1_specialBlock>
+  </movingPlatforms>
+  <BGLayer1>
+    <level1_windows x="270" y="90" width="180" height="54"/>
+    <level1_windows x="660" y="90" width="240" height="54"/>
+    <L1_Shelf x="110" y="80"/>
+    <L1_Shelf x="620" y="80"/>
+  </BGLayer1>
+  <BGLayer2>
+    <cratesBox x="320" y="210"/>
+    <palettes x="670" y="340"/>
+    <palettes x="780" y="340"/>
+    <palettes x="190" y="340"/>
+    <sugarBagsAndCrates x="740" y="250"/>
+    <sugarBags x="540" y="340"/>
+    <sugarBags x="0" y="340"/>
+  </BGLayer2>
+  <BGLayer3>
+    <sodaPack x="560" y="360"/>
+    <sodaPack x="260" y="360"/>
+    <sugarBags x="130" y="140"/>
+    <sugarBags x="580" y="140"/>
+    <palettes x="600" y="340"/>
+  </BGLayer3>
+  <objects>
+    <Bottle x="180" y="48" width="12"/>
+    <smallSugarBag x="926" y="356" width="22"/>
+    <exit x="573" y="110"/>
+  </objects>
+  <characters>
+    <player x="19" y="329" speed="40" movementType="1">
+      <node x="53" y="329"/>
+    </player>
+    <army x="408" y="335" speed="40" movementType="1">
+      <node x="821" y="323"/>
+    </army>
+    <liselot x="15" y="134" speed="40" movementType="1">
+      <node x="63" y="131"/>
+    </liselot>
+    <chef x="243" y="136" speed="40" movementType="1">
+      <node x="370" y="136"/>
+    </chef>
+  </characters>
+</level>

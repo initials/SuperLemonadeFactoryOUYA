@@ -1,0 +1,112 @@
+<?xml version="1.0" ?>
+<level>
+  <width>
+    1000
+  </width>
+  <height>
+    1000
+  </height>
+  <solids>
+    <rect h="1000" w="10" x="0" y="0"/>
+    <rect h="1000" w="10" x="990" y="0"/>
+    <rect h="60" w="1000" x="0" y="940"/>
+    <rect h="16" w="45" x="112" y="6"/>
+    <rect h="31" w="26" x="62" y="120"/>
+    <rect h="47" w="379" x="-114" y="262"/>
+    <rect h="40" w="363" x="-104" y="304"/>
+    <rect h="46" w="362" x="-105" y="530"/>
+    <rect h="51" w="364" x="-13" y="480"/>
+    <rect h="51" w="69" x="42" y="694"/>
+    <rect h="52" w="148" x="32" y="621"/>
+    <rect h="76" w="91" x="-6" y="887"/>
+    <rect h="13" w="168" x="17" y="812"/>
+    <rect h="20" w="131" x="231" y="109"/>
+    <rect h="10" w="342" x="170" y="54"/>
+    <rect h="69" w="368" x="140" y="286"/>
+    <rect h="57" w="111" x="243" y="258"/>
+    <rect h="48" w="312" x="170" y="546"/>
+    <rect h="79" w="71" x="197" y="390"/>
+    <rect h="77" w="285" x="118" y="595"/>
+    <rect h="48" w="69" x="263" y="709"/>
+    <rect h="41" w="279" x="185" y="810"/>
+    <rect h="29" w="23" x="194" y="823"/>
+    <rect h="28" w="242" x="359" y="101"/>
+    <rect h="33" w="278" x="359" y="56"/>
+    <rect h="23" w="314" x="369" y="231"/>
+    <rect h="78" w="260" x="376" y="257"/>
+    <rect h="23" w="49" x="544" y="410"/>
+    <rect h="61" w="309" x="327" y="413"/>
+    <rect h="17" w="83" x="503" y="645"/>
+    <rect h="70" w="93" x="456" y="665"/>
+    <rect h="74" w="30" x="446" y="845"/>
+    <rect h="48" w="392" x="251" y="790"/>
+    <rect h="34" w="300" x="549" y="88"/>
+    <rect h="25" w="147" x="640" y="51"/>
+    <rect h="53" w="63" x="690" y="336"/>
+    <rect h="32" w="208" x="590" y="248"/>
+    <rect h="49" w="301" x="588" y="420"/>
+    <rect h="66" w="265" x="574" y="487"/>
+    <rect h="72" w="173" x="597" y="636"/>
+    <rect h="41" w="313" x="549" y="709"/>
+    <rect h="44" w="209" x="590" y="794"/>
+    <rect h="38" w="108" x="681" y="888"/>
+    <rect h="12" w="31" x="845" y="57"/>
+    <rect h="65" w="136" x="809" y="40"/>
+    <rect h="61" w="194" x="795" y="240"/>
+    <rect h="26" w="374" x="706" y="330"/>
+    <rect h="72" w="22" x="795" y="481"/>
+    <rect h="11" w="334" x="767" y="560"/>
+    <rect h="22" w="351" x="737" y="682"/>
+    <rect h="63" w="274" x="761" y="685"/>
+    <rect h="15" w="97" x="891" y="917"/>
+    <rect h="64" w="369" x="692" y="920"/>
+  </solids>
+  <characters>
+    <liselot movementType="1" speed="40" x="90" y="203">
+      <node x="90" y="203"/>
+    </liselot>
+    <player movementType="1" speed="40" x="190" y="203">
+      <node x="190" y="203"/>
+    </player>
+    <liselot movementType="1" speed="40" x="132" y="-4">
+      <node x="132" y="-4"/>
+    </liselot>
+    <player movementType="1" speed="40" x="-94" y="252">
+      <node x="-94" y="252"/>
+    </player>
+    <player movementType="1" speed="40" x="190" y="44">
+      <node x="190" y="44"/>
+    </player>
+    <player movementType="1" speed="40" x="217" y="380">
+      <node x="217" y="380"/>
+    </player>
+    <player movementType="1" speed="40" x="214" y="813">
+      <node x="214" y="813"/>
+    </player>
+    <player movementType="1" speed="40" x="379" y="91">
+      <node x="379" y="91"/>
+    </player>
+    <player movementType="1" speed="40" x="389" y="221">
+      <node x="389" y="221"/>
+    </player>
+    <player movementType="1" speed="40" x="594" y="477">
+      <node x="594" y="477"/>
+    </player>
+    <player movementType="1" speed="40" x="617" y="626">
+      <node x="617" y="626"/>
+    </player>
+    <player movementType="1" speed="40" x="701" y="878">
+      <node x="701" y="878"/>
+    </player>
+    <player movementType="1" speed="40" x="829" y="30">
+      <node x="829" y="30"/>
+    </player>
+    <player movementType="1" speed="40" x="787" y="550">
+      <node x="787" y="550"/>
+    </player>
+    <player movementType="1" speed="40" x="911" y="907">
+      <node x="911" y="907"/>
+    </player>
+  </characters>
+  <objects/>
+</level>

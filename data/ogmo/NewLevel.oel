@@ -1,0 +1,18 @@
+<level>
+  <width>480</width>
+  <height>320</height>
+  <solids>
+    <rect x="0" y="0" w="480" h="20"/>
+    <rect x="0" y="20" w="10" h="300"/>
+    <rect x="10" y="220" w="470" h="100"/>
+    <rect x="470" y="20" w="10" h="200"/>
+  </solids>
+  <characters>
+    <player x="183" y="175" speed="40" movementType="1" startsFirst="1" levelName="new level" andreInitialFlip="0" liselotInitialFlip="1" followWidth="0" followHeight="0">
+      <node x="237" y="174"/>
+    </player>
+    <liselot x="274" y="174" speed="40" movementType="1">
+      <node x="332" y="171"/>
+    </liselot>
+  </characters>
+</level>

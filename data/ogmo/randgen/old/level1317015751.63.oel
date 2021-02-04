@@ -1,0 +1,372 @@
+<?xml version="1.0" ?>
+<level>
+  <width>
+    1000
+  </width>
+  <height>
+    1000
+  </height>
+  <solids>
+    <rect h="1000" w="10" x="0" y="0"/>
+    <rect h="1000" w="10" x="990" y="0"/>
+    <rect h="60" w="1000" x="0" y="940"/>
+    <rect h="30" w="230" x="-10" y="10"/>
+    <rect h="100" w="340" x="-20" y="50"/>
+    <rect h="60" w="50" x="130" y="310"/>
+    <rect h="60" w="280" x="-10" y="200"/>
+    <rect h="80" w="150" x="20" y="490"/>
+    <rect h="60" w="70" x="80" y="500"/>
+    <rect h="80" w="170" x="30" y="710"/>
+    <rect h="40" w="310" x="-20" y="660"/>
+    <rect h="100" w="250" x="-10" y="900"/>
+    <rect h="80" w="100" x="20" y="790"/>
+    <rect h="60" w="250" x="180" y="50"/>
+    <rect h="60" w="310" x="150" y="140"/>
+    <rect h="110" w="40" x="330" y="250"/>
+    <rect h="60" w="340" x="180" y="250"/>
+    <rect h="90" w="300" x="180" y="470"/>
+    <rect h="40" w="210" x="190" y="530"/>
+    <rect h="80" w="50" x="300" y="650"/>
+    <rect h="80" w="270" x="150" y="620"/>
+    <rect h="90" w="60" x="310" y="900"/>
+    <rect h="80" w="290" x="170" y="890"/>
+    <rect h="90" w="160" x="400" y="90"/>
+    <rect h="90" w="290" x="360" y="80"/>
+    <rect h="50" w="130" x="450" y="250"/>
+    <rect h="70" w="350" x="310" y="240"/>
+    <rect h="50" w="60" x="530" y="510"/>
+    <rect h="100" w="340" x="300" y="490"/>
+    <rect h="110" w="310" x="310" y="690"/>
+    <rect h="50" w="120" x="430" y="690"/>
+    <rect h="60" w="190" x="400" y="820"/>
+    <rect h="80" w="130" x="410" y="820"/>
+    <rect h="120" w="80" x="600" y="0"/>
+    <rect h="50" w="280" x="550" y="30"/>
+    <rect h="50" w="230" x="580" y="350"/>
+    <rect h="80" w="50" x="700" y="200"/>
+    <rect h="50" w="230" x="580" y="470"/>
+    <rect h="100" w="330" x="520" y="500"/>
+    <rect h="40" w="200" x="590" y="600"/>
+    <rect h="40" w="260" x="560" y="620"/>
+    <rect h="110" w="290" x="510" y="880"/>
+    <rect h="70" w="150" x="630" y="890"/>
+    <rect h="90" w="70" x="880" y="30"/>
+    <rect h="90" w="350" x="730" y="20"/>
+    <rect h="40" w="120" x="850" y="230"/>
+    <rect h="40" w="90" x="830" y="220"/>
+    <rect h="90" w="210" x="790" y="440"/>
+    <rect h="120" w="80" x="870" y="400"/>
+    <rect h="110" w="80" x="860" y="600"/>
+    <rect h="80" w="160" x="840" y="710"/>
+    <rect h="70" w="180" x="810" y="850"/>
+    <rect h="80" w="130" x="810" y="920"/>
+  </solids>
+  <characters>
+    <worker movementType="1" speed="70" x="10" y="0">
+      <node x="10" y="0"/>
+    </worker>
+    <army movementType="1" speed="70" x="0" y="40">
+      <node x="0" y="40"/>
+    </army>
+    <inspector movementType="1" speed="70" x="150" y="300">
+      <node x="150" y="300"/>
+    </inspector>
+    <army movementType="1" speed="70" x="10" y="190">
+      <node x="10" y="190"/>
+    </army>
+    <worker movementType="1" speed="70" x="40" y="480">
+      <node x="40" y="480"/>
+    </worker>
+    <player movementType="1" speed="40" x="100" y="490">
+      <node x="100" y="490"/>
+    </player>
+    <army movementType="1" speed="70" x="100" y="490">
+      <node x="100" y="490"/>
+    </army>
+    <chef movementType="1" speed="70" x="50" y="700">
+      <node x="50" y="700"/>
+    </chef>
+    <chef movementType="1" speed="70" x="0" y="650">
+      <node x="0" y="650"/>
+    </chef>
+    <liselot movementType="1" speed="40" x="10" y="890">
+      <node x="10" y="890"/>
+    </liselot>
+    <chef movementType="1" speed="70" x="10" y="890">
+      <node x="10" y="890"/>
+    </chef>
+    <inspector movementType="1" speed="70" x="40" y="780">
+      <node x="40" y="780"/>
+    </inspector>
+    <inspector movementType="1" speed="70" x="200" y="40">
+      <node x="200" y="40"/>
+    </inspector>
+    <inspector movementType="1" speed="70" x="170" y="130">
+      <node x="170" y="130"/>
+    </inspector>
+    <chef movementType="1" speed="70" x="350" y="240">
+      <node x="350" y="240"/>
+    </chef>
+    <army movementType="1" speed="70" x="200" y="240">
+      <node x="200" y="240"/>
+    </army>
+    <chef movementType="1" speed="70" x="210" y="520">
+      <node x="210" y="520"/>
+    </chef>
+    <army movementType="1" speed="70" x="170" y="610">
+      <node x="170" y="610"/>
+    </army>
+    <army movementType="1" speed="70" x="330" y="890">
+      <node x="330" y="890"/>
+    </army>
+    <army movementType="1" speed="70" x="190" y="880">
+      <node x="190" y="880"/>
+    </army>
+    <inspector movementType="1" speed="70" x="420" y="80">
+      <node x="420" y="80"/>
+    </inspector>
+    <army movementType="1" speed="70" x="380" y="70">
+      <node x="380" y="70"/>
+    </army>
+    <worker movementType="1" speed="70" x="470" y="240">
+      <node x="470" y="240"/>
+    </worker>
+    <worker movementType="1" speed="70" x="330" y="230">
+      <node x="330" y="230"/>
+    </worker>
+    <worker movementType="1" speed="70" x="550" y="500">
+      <node x="550" y="500"/>
+    </worker>
+    <inspector movementType="1" speed="70" x="320" y="480">
+      <node x="320" y="480"/>
+    </inspector>
+    <army movementType="1" speed="70" x="330" y="680">
+      <node x="330" y="680"/>
+    </army>
+    <army movementType="1" speed="70" x="450" y="680">
+      <node x="450" y="680"/>
+    </army>
+    <chef movementType="1" speed="70" x="420" y="810">
+      <node x="420" y="810"/>
+    </chef>
+    <army movementType="1" speed="70" x="430" y="810">
+      <node x="430" y="810"/>
+    </army>
+    <worker movementType="1" speed="70" x="620" y="-10">
+      <node x="620" y="-10"/>
+    </worker>
+    <chef movementType="1" speed="70" x="600" y="340">
+      <node x="600" y="340"/>
+    </chef>
+    <army movementType="1" speed="70" x="600" y="460">
+      <node x="600" y="460"/>
+    </army>
+    <inspector movementType="1" speed="70" x="540" y="490">
+      <node x="540" y="490"/>
+    </inspector>
+    <army movementType="1" speed="70" x="610" y="590">
+      <node x="610" y="590"/>
+    </army>
+    <worker movementType="1" speed="70" x="580" y="610">
+      <node x="580" y="610"/>
+    </worker>
+    <chef movementType="1" speed="70" x="530" y="870">
+      <node x="530" y="870"/>
+    </chef>
+    <inspector movementType="1" speed="70" x="650" y="880">
+      <node x="650" y="880"/>
+    </inspector>
+    <inspector movementType="1" speed="70" x="900" y="20">
+      <node x="900" y="20"/>
+    </inspector>
+    <army movementType="1" speed="70" x="750" y="10">
+      <node x="750" y="10"/>
+    </army>
+    <inspector movementType="1" speed="70" x="870" y="220">
+      <node x="870" y="220"/>
+    </inspector>
+    <worker movementType="1" speed="70" x="850" y="210">
+      <node x="850" y="210"/>
+    </worker>
+    <worker movementType="1" speed="70" x="810" y="430">
+      <node x="810" y="430"/>
+    </worker>
+    <inspector movementType="1" speed="70" x="890" y="390">
+      <node x="890" y="390"/>
+    </inspector>
+    <army movementType="1" speed="70" x="880" y="590">
+      <node x="880" y="590"/>
+    </army>
+    <army movementType="1" speed="70" x="860" y="700">
+      <node x="860" y="700"/>
+    </army>
+    <inspector movementType="1" speed="70" x="830" y="840">
+      <node x="830" y="840"/>
+    </inspector>
+    <chef movementType="1" speed="70" x="830" y="910">
+      <node x="830" y="910"/>
+    </chef>
+  </characters>
+  <extraPlatforms>
+    <level3_spike1 height="100" width="10" x="320.0" y="50"/>
+    <level3_spike2 height="10" width="50" x="130" y="370.0"/>
+    <level3_spike3 height="60" width="10" x="-20" y="200"/>
+    <level3_spike2 height="10" width="150" x="20" y="570.0"/>
+    <level3_spike1 height="80" width="10" x="170.0" y="490"/>
+    <level3_spike1 height="80" width="10" x="200.0" y="710"/>
+    <level3_spike2 height="10" width="310" x="-20" y="700.0"/>
+    <level3_spike2 height="10" width="100" x="20" y="870.0"/>
+    <level3_spike3 height="80" width="10" x="10" y="790"/>
+    <level3_spike2 height="10" width="250" x="180" y="110.0"/>
+    <level3_spike2 height="10" width="310" x="150" y="200.0"/>
+    <level3_spike2 height="10" width="40" x="330" y="360.0"/>
+    <level3_spike1 height="110" width="10" x="370.0" y="250"/>
+    <level3_spike2 height="10" width="340" x="180" y="310.0"/>
+    <level3_spike2 height="10" width="300" x="180" y="560.0"/>
+    <level3_spike0 height="10" width="300" x="180" y="460"/>
+    <level3_spike1 height="90" width="10" x="480.0" y="470"/>
+    <level3_spike2 height="10" width="50" x="300" y="730.0"/>
+    <level3_spike0 height="10" width="50" x="300" y="640"/>
+    <level3_spike3 height="80" width="10" x="290" y="650"/>
+    <level3_spike1 height="80" width="10" x="420.0" y="620"/>
+    <level3_spike2 height="10" width="290" x="170" y="970.0"/>
+    <level3_spike3 height="90" width="10" x="390" y="90"/>
+    <level3_spike2 height="10" width="130" x="450" y="300.0"/>
+    <level3_spike3 height="50" width="10" x="440" y="250"/>
+    <level3_spike1 height="50" width="10" x="580.0" y="250"/>
+    <level3_spike2 height="10" width="60" x="530" y="560.0"/>
+    <level3_spike1 height="50" width="10" x="590.0" y="510"/>
+    <level3_spike2 height="10" width="310" x="310" y="800.0"/>
+    <level3_spike1 height="110" width="10" x="620.0" y="690"/>
+    <level3_spike1 height="60" width="10" x="590.0" y="820"/>
+    <level3_spike2 height="10" width="130" x="410" y="900.0"/>
+    <level3_spike3 height="80" width="10" x="400" y="820"/>
+    <level3_spike1 height="120" width="10" x="680.0" y="0"/>
+    <level3_spike0 height="10" width="280" x="550" y="20"/>
+    <level3_spike0 height="10" width="50" x="700" y="190"/>
+    <level3_spike1 height="80" width="10" x="750.0" y="200"/>
+    <level3_spike3 height="100" width="10" x="510" y="500"/>
+    <level3_spike1 height="100" width="10" x="850.0" y="500"/>
+    <level3_spike1 height="40" width="10" x="790.0" y="600"/>
+    <level3_spike3 height="110" width="10" x="500" y="880"/>
+    <level3_spike1 height="90" width="10" x="1080.0" y="20"/>
+    <level3_spike3 height="40" width="10" x="840" y="230"/>
+    <level3_spike1 height="40" width="10" x="970.0" y="230"/>
+    <level3_spike2 height="10" width="90" x="830" y="260.0"/>
+    <level3_spike1 height="90" width="10" x="1000.0" y="440"/>
+    <level3_spike1 height="120" width="10" x="950.0" y="400"/>
+    <level3_spike3 height="110" width="10" x="850" y="600"/>
+    <level3_spike3 height="80" width="10" x="830" y="710"/>
+    <level3_spike2 height="10" width="180" x="810" y="920.0"/>
+    <level3_spike2 height="10" width="130" x="810" y="1000.0"/>
+    <level3_spike3 height="80" width="10" x="800" y="920"/>
+  </extraPlatforms>
+  <objects>
+    <exit x="50" y="630"/>
+  </objects>
+  <BGLayer1>
+    <level3_painting3 h="84" w="70" x="-10" y="10"/>
+    <level3_painting2 h="84" w="70" x="-20" y="50"/>
+    <level3_salesChart h="84" w="70" x="130" y="310"/>
+    <level3_salesChart h="84" w="70" x="-10" y="200"/>
+    <level3_salesChart h="84" w="70" x="20" y="490"/>
+    <level3_painting3 h="84" w="70" x="80" y="500"/>
+    <level3_salesChart h="84" w="70" x="30" y="710"/>
+    <level3_painting2 h="84" w="70" x="-20" y="660"/>
+    <level3_salesChart h="84" w="70" x="-10" y="900"/>
+    <level3_painting2 h="84" w="70" x="20" y="790"/>
+    <level3_salesChart h="84" w="70" x="180" y="50"/>
+    <level3_salesChart h="84" w="70" x="150" y="140"/>
+    <level3_salesChart h="84" w="70" x="330" y="250"/>
+    <level3_painting1 h="84" w="70" x="180" y="250"/>
+    <level3_painting3 h="84" w="70" x="180" y="470"/>
+    <level3_painting1 h="84" w="70" x="190" y="530"/>
+    <level3_salesChart h="84" w="70" x="300" y="650"/>
+    <level3_painting1 h="84" w="70" x="150" y="620"/>
+    <level3_painting2 h="84" w="70" x="310" y="900"/>
+    <level3_painting1 h="84" w="70" x="170" y="890"/>
+    <level3_painting3 h="84" w="70" x="400" y="90"/>
+    <level3_salesChart h="84" w="70" x="360" y="80"/>
+    <level3_painting3 h="84" w="70" x="450" y="250"/>
+    <level3_painting1 h="84" w="70" x="310" y="240"/>
+    <level3_painting2 h="84" w="70" x="530" y="510"/>
+    <level3_painting1 h="84" w="70" x="300" y="490"/>
+    <level3_painting1 h="84" w="70" x="310" y="690"/>
+    <level3_painting1 h="84" w="70" x="430" y="690"/>
+    <level3_salesChart h="84" w="70" x="400" y="820"/>
+    <level3_painting3 h="84" w="70" x="410" y="820"/>
+    <level3_salesChart h="84" w="70" x="600" y="0"/>
+    <level3_painting3 h="84" w="70" x="550" y="30"/>
+    <level3_painting2 h="84" w="70" x="580" y="350"/>
+    <level3_painting2 h="84" w="70" x="700" y="200"/>
+    <level3_salesChart h="84" w="70" x="580" y="470"/>
+    <level3_painting1 h="84" w="70" x="520" y="500"/>
+    <level3_painting1 h="84" w="70" x="590" y="600"/>
+    <level3_painting2 h="84" w="70" x="560" y="620"/>
+    <level3_painting2 h="84" w="70" x="510" y="880"/>
+    <level3_painting2 h="84" w="70" x="630" y="890"/>
+    <level3_salesChart h="84" w="70" x="880" y="30"/>
+    <level3_painting2 h="84" w="70" x="730" y="20"/>
+    <level3_painting1 h="84" w="70" x="850" y="230"/>
+    <level3_painting2 h="84" w="70" x="830" y="220"/>
+    <level3_painting3 h="84" w="70" x="790" y="440"/>
+    <level3_painting3 h="84" w="70" x="870" y="400"/>
+    <level3_painting2 h="84" w="70" x="860" y="600"/>
+    <level3_painting1 h="84" w="70" x="840" y="710"/>
+    <level3_painting1 h="84" w="70" x="810" y="850"/>
+    <level3_salesChart h="84" w="70" x="810" y="920"/>
+  </BGLayer1>
+  <BGLayer2/>
+  <BGLayer3>
+    <level3_desk1 x="-10" y="-60"/>
+    <sugarBags x="-20" y="10"/>
+    <level3_desk2 x="130" y="240"/>
+    <palettes x="-10" y="160"/>
+    <level3_desk1 x="20" y="420"/>
+    <level3_desk3 x="80" y="430"/>
+    <sugarBags x="30" y="670"/>
+    <level3_desk2 x="-20" y="590"/>
+    <level3_desk1 x="-10" y="830"/>
+    <level3_desk1 x="20" y="720"/>
+    <level3_desk1 x="180" y="-20"/>
+    <sodaPack x="150" y="120"/>
+    <level3_desk1 x="330" y="180"/>
+    <palettes x="180" y="210"/>
+    <level3_desk1 x="180" y="400"/>
+    <level3_desk3 x="190" y="460"/>
+    <sugarBags x="300" y="610"/>
+    <sodaPack x="150" y="600"/>
+    <level3_desk3 x="310" y="830"/>
+    <palettes x="170" y="850"/>
+    <sugarBags x="400" y="50"/>
+    <level3_desk3 x="360" y="10"/>
+    <level3_desk1 x="450" y="180"/>
+    <sugarBags x="310" y="200"/>
+    <level3_desk2 x="530" y="440"/>
+    <level3_desk1 x="300" y="420"/>
+    <sugarBags x="310" y="650"/>
+    <sugarBags x="430" y="650"/>
+    <level3_desk3 x="400" y="750"/>
+    <sodaPack x="410" y="800"/>
+    <palettes x="600" y="-40"/>
+    <level3_desk1 x="550" y="-40"/>
+    <sodaPack x="580" y="330"/>
+    <level3_desk2 x="700" y="130"/>
+    <level3_desk1 x="580" y="400"/>
+    <sugarBags x="520" y="460"/>
+    <sugarBags x="590" y="560"/>
+    <palettes x="560" y="580"/>
+    <level3_desk1 x="510" y="810"/>
+    <palettes x="630" y="850"/>
+    <sodaPack x="880" y="10"/>
+    <level3_desk1 x="730" y="-50"/>
+    <level3_desk1 x="850" y="160"/>
+    <level3_desk2 x="830" y="150"/>
+    <sodaPack x="790" y="420"/>
+    <sugarBags x="870" y="360"/>
+    <level3_desk3 x="860" y="530"/>
+    <level3_desk3 x="840" y="640"/>
+    <sugarBags x="810" y="810"/>
+    <palettes x="810" y="880"/>
+  </BGLayer3>
+</level>

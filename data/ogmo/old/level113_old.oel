@@ -1,0 +1,123 @@
+<level>
+  <width>1600</width>
+  <height>1500</height>
+  <solids>
+    <rect x="0" y="0" w="10" h="1500"/>
+    <rect x="10" y="690" w="1500" h="110"/>
+    <rect x="10" y="1340" w="1590" h="160"/>
+    <rect x="30" y="590" w="10" h="20"/>
+    <rect x="40" y="570" w="10" h="20"/>
+    <rect x="50" y="560" w="10" h="10"/>
+    <rect x="50" y="590" w="10" h="10"/>
+    <rect x="60" y="570" w="10" h="20"/>
+    <rect x="70" y="590" w="10" h="20"/>
+    <rect x="80" y="560" w="10" h="20"/>
+    <rect x="90" y="580" w="10" h="20"/>
+    <rect x="100" y="600" w="10" h="10"/>
+    <rect x="110" y="580" w="10" h="20"/>
+    <rect x="120" y="560" w="10" h="20"/>
+    <rect x="140" y="560" w="30" h="10"/>
+    <rect x="140" y="570" w="10" h="40"/>
+    <rect x="150" y="600" w="20" h="10"/>
+    <rect x="170" y="570" w="10" h="30"/>
+    <rect x="190" y="560" w="20" h="10"/>
+    <rect x="190" y="570" w="10" h="40"/>
+    <rect x="210" y="570" w="10" h="10"/>
+    <rect x="220" y="560" w="20" h="10"/>
+    <rect x="230" y="570" w="10" h="40"/>
+    <rect x="1590" y="0" w="10" h="1340"/>
+  </solids>
+  <extraPlatforms>
+    <level2_spike0 x="30" y="580" width="10" height="10"/>
+    <level2_spike0 x="40" y="560" width="10" height="10"/>
+    <level2_spike0 x="50" y="550" width="10" height="10"/>
+    <level2_spike0 x="60" y="560" width="10" height="10"/>
+    <level2_spike0 x="70" y="580" width="10" height="10"/>
+    <level2_spike0 x="80" y="550" width="10" height="10"/>
+    <level2_spike0 x="50" y="580" width="10" height="10"/>
+    <level2_spike0 x="90" y="570" width="10" height="10"/>
+    <level2_spike0 x="100" y="590" width="10" height="10"/>
+    <level2_spike0 x="110" y="570" width="10" height="10"/>
+    <level2_spike0 x="120" y="550" width="10" height="10"/>
+    <level2_spike0 x="150" y="550" width="10" height="10"/>
+    <level2_spike0 x="210" y="560" width="10" height="10"/>
+    <level2_spike0 x="190" y="550" width="10" height="10"/>
+    <level2_spike0 x="230" y="550" width="10" height="10"/>
+    <level2_spike2 x="30" y="610" width="10" height="10"/>
+    <level2_spike2 x="50" y="600" width="10" height="10"/>
+    <level2_spike2 x="70" y="610" width="10" height="10"/>
+    <level2_spike2 x="60" y="590" width="10" height="10"/>
+    <level2_spike2 x="40" y="590" width="10" height="10"/>
+    <level2_spike2 x="100" y="610" width="10" height="10"/>
+    <level2_spike2 x="90" y="600" width="10" height="10"/>
+    <level2_spike2 x="80" y="580" width="10" height="10"/>
+    <level2_spike2 x="110" y="600" width="10" height="10"/>
+    <level2_spike2 x="120" y="580" width="10" height="10"/>
+    <level2_spike2 x="150" y="610" width="10" height="10"/>
+    <level2_spike2 x="190" y="610" width="10" height="10"/>
+    <level2_spike2 x="230" y="610" width="10" height="10"/>
+    <level2_spike2 x="210" y="580" width="10" height="10"/>
+    <level2_spike2 x="200" y="570" width="10" height="10"/>
+    <level2_spike2 x="220" y="570" width="10" height="10"/>
+    <level2_spike0 x="150" y="590" width="10" height="10"/>
+    <level2_spike3 x="130" y="580" width="10" height="10"/>
+    <level2_spike3 x="130" y="580" width="10" height="10"/>
+    <level2_spike3 x="160" y="580" width="10" height="10"/>
+    <level2_spike3 x="180" y="580" width="10" height="10"/>
+    <level2_spike1 x="170" y="600" width="10" height="10"/>
+    <level2_spike1 x="170" y="560" width="10" height="10"/>
+    <level2_spike1 x="240" y="580" width="10" height="10"/>
+    <level2_spike0 x="430" y="1330" width="440" height="10"/>
+  </extraPlatforms>
+  <movingPlatforms>
+    <level2_specialBlock x="1530" y="560" speed="10" movementType="1" animated="0">
+      <node x="1530" y="1260"/>
+    </level2_specialBlock>
+    <level2_specialPlatformSmall x="430" y="1290" speed="120" movementType="4" animated="1">
+      <node x="830" y="1290"/>
+    </level2_specialPlatformSmall>
+  </movingPlatforms>
+  <BGLayer1>
+    <level2_greenPipe x="360" y="760" width="20" height="660" scrollFactor="0.3"/>
+    <level2_pipe1 x="10" y="1200" width="1590" height="70" scrollFactor="0.2"/>
+    <level2_tank x="320" y="1090" scrollFactor="0.3"/>
+    <level2_window x="90" y="1140" width="100" height="50" scrollFactor="0.1"/>
+    <level2_window x="450" y="1160" width="50" height="50" scrollFactor="0.1"/>
+    <level2_window x="410" y="550" width="150" height="90" scrollFactor="0.1"/>
+    <level2_FMG3 x="630" y="560" scrollFactor="0.1"/>
+  </BGLayer1>
+  <BGLayer2>
+    <level2_greenPipe x="790" y="760" width="20" height="710" scrollFactor="0.7"/>
+    <level2_tank x="750" y="1020" scrollFactor="0.7"/>
+    <level2_MG2 x="0" y="1080" scrollFactor="0.2"/>
+    <level2_greenPipe x="210" y="790" width="20" height="600" scrollFactor="0.2"/>
+    <level2_greenPipe x="530" y="790" width="20" height="710" scrollFactor="0.44"/>
+    <level2_tank x="490" y="1140" scrollFactor="0.44"/>
+    <level2_FMG3 x="920" y="1210" scrollFactor="0.8"/>
+    <level2_pipe1 x="560" y="1150" width="1040" height="70" scrollFactor="0.44"/>
+    <level2_pipe1 x="0" y="600" width="1600" height="70" scrollFactor="0.2"/>
+  </BGLayer2>
+  <BGLayer3>
+    <sodaPack x="170" y="1320" scrollFactor="0.2"/>
+    <palettes x="1060" y="1300" scrollFactor="0.2"/>
+    <sugarBags x="1200" y="1300" scrollFactor="0.2"/>
+    <level2_braceLeft x="150" y="570"/>
+  </BGLayer3>
+  <objects>
+    <exit x="1319" y="1250"/>
+    <smallSugarBag x="1139" y="1039" width="22"/>
+  </objects>
+  <characters>
+    <player x="24" y="1295" speed="40" movementType="1">
+      <node x="88" y="1299"/>
+    </player>
+    <liselot x="995" y="1294" speed="40" movementType="1">
+      <node x="1035" y="1297"/>
+    </liselot>
+  </characters>
+  <FGLayer1>
+    <level2_metalPipe x="598" y="0" width="30" height="1500" scrollFactor="1.4"/>
+    <level2_chainTile x="960" y="0" width="12" height="1500" scrollFactor="1.7"/>
+    <level2_greenPipe x="1121" y="0" width="20" height="1500" scrollFactor="1.9"/>
+  </FGLayer1>
+</level>

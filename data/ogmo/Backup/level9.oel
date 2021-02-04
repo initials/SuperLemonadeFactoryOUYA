@@ -1,0 +1,32 @@
+<level>
+  <width>960</width>
+  <height>320</height>
+  <solids>
+    <rect x="0" y="0" w="10" h="320"/>
+    <rect x="10" y="250" w="950" h="70"/>
+    <rect x="130" y="0" w="20" h="150"/>
+    <rect x="280" y="0" w="280" h="100"/>
+    <rect x="280" y="160" w="280" h="90"/>
+    <rect x="950" y="0" w="10" h="250"/>
+  </solids>
+  <extraPlatforms>
+    <level3_specialBlock x="10" y="90" speed="40" movementType="1"/>
+    <level3_specialBlock x="150" y="90" speed="40" movementType="1"/>
+    <LargeCrate x="300" y="100"/>
+    <LargeCrate x="380" y="100"/>
+    <LargeCrate x="460" y="100"/>
+    <level3_specialPlatform x="560" y="80" speed="40" movementType="1"/>
+    <level3_spike0 x="10" y="240" width="270" height="10"/>
+    <level3_spike3 x="120" y="0" width="10" height="150"/>
+  </extraPlatforms>
+  <movingPlatforms>
+    <level3_specialPlatform x="10" y="220" speed="40" movementType="1">
+      <node x="180" y="220"/>
+    </level3_specialPlatform>
+  </movingPlatforms>
+  <objects>
+    <L1_SmallCrate x="619" y="58" width="32"/>
+    <L1_SmallCrate x="619" y="58" width="32"/>
+    <exit x="884" y="176"/>
+  </objects>
+</level>

@@ -1,0 +1,80 @@
+<level>
+  <width>640</width>
+  <height>640</height>
+  <solids>
+    <rect x="0" y="0" w="10" h="640"/>
+    <rect x="10" y="110" w="40" h="30"/>
+    <rect x="10" y="300" w="390" h="50"/>
+    <rect x="10" y="620" w="630" h="20"/>
+    <rect x="100" y="0" w="40" h="160"/>
+    <rect x="100" y="450" w="540" h="30"/>
+    <rect x="160" y="420" w="20" h="30"/>
+    <rect x="170" y="480" w="60" h="80"/>
+    <rect x="240" y="350" w="20" h="30"/>
+    <rect x="290" y="0" w="80" h="220"/>
+    <rect x="320" y="420" w="20" h="30"/>
+    <rect x="500" y="0" w="140" h="210"/>
+    <rect x="630" y="210" w="10" h="240"/>
+    <rect x="630" y="480" w="10" h="140"/>
+  </solids>
+  <extraPlatforms>
+    <LargeCrate x="290" y="240"/>
+    <level2_spike2 x="290" y="220" width="80" height="10"/>
+    <level2_spike0 x="50" y="290" width="40" height="10"/>
+    <level2_spike2 x="100" y="160" width="40" height="10"/>
+    <level2_spike2 x="10" y="140" width="40" height="10"/>
+    <level2_spike2 x="500" y="210" width="130" height="10"/>
+    <level2_spike2 x="240" y="380" width="20" height="10"/>
+    <level2_spike0 x="160" y="410" width="20" height="10"/>
+    <level2_spike0 x="320" y="410" width="20" height="10"/>
+    <level2_specialBlock x="190" y="110" speed="40" movementType="1"/>
+    <LargeCrate x="160" y="560"/>
+  </extraPlatforms>
+  <movingPlatforms>
+    <level2_specialPlatform x="400" y="300" speed="40" movementType="1">
+      <node x="530" y="330"/>
+    </level2_specialPlatform>
+  </movingPlatforms>
+  <BGLayer1>
+    <level2_window x="90" y="350" width="150" height="60"/>
+    <level2_MG2 x="0" y="130"/>
+  </BGLayer1>
+  <BGLayer2>
+    <level2_tank x="300" y="120"/>
+    <level2_FMG3 x="230" y="560"/>
+    <level2_FMG3 x="10" y="340"/>
+    <level2_pipe1 x="370" y="130" width="270" height="70"/>
+    <level2_greenPipe x="340" y="0" width="20" height="130"/>
+  </BGLayer2>
+  <BGLayer3>
+    <level2_greenPipe x="170" y="0" width="20" height="640"/>
+    <level2_metalPipe x="420" y="0" width="30" height="640"/>
+  </BGLayer3>
+  <objects>
+    <Bottle x="243" y="393" width="12"/>
+    <exit x="545" y="549"/>
+  </objects>
+  <characters>
+    <player x="13" y="67" speed="40" movementType="1">
+      <node x="46" y="68"/>
+    </player>
+    <worker x="112" y="262" speed="40" movementType="1">
+      <node x="210" y="262"/>
+    </worker>
+    <inspector x="349" y="416" speed="40" movementType="1">
+      <node x="454" y="415"/>
+    </inspector>
+    <army x="478" y="405" speed="40" movementType="1">
+      <node x="597" y="402"/>
+    </army>
+    <liselot x="190" y="64" speed="40" movementType="1">
+      <node x="214" y="67"/>
+    </liselot>
+    <chef x="234" y="571" speed="40" movementType="1">
+      <node x="542" y="573"/>
+    </chef>
+  </characters>
+  <FGLayer1>
+    <level2_chainTile x="290" y="1" width="12" height="639"/>
+  </FGLayer1>
+</level>

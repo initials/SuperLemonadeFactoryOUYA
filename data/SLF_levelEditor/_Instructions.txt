@@ -1,0 +1,18 @@
+Super Lemonade Factory.
+
+How to use this level editor project.
+
+Download the Ogmo Editor from http://www.ogmoeditor.com/
+You'll need to download the Ogmo Editor version 0.918. This project may not work with Ogmo Editor v2.x.
+The Ogmo Editor is a free and open source level editor created by Matt Thorson. It will run on Windows, Linux and OSX.
+
+The Ogmo Editor requires Adobe Air. If you don't have Adobe Air installed, download it from Adobe's website. 
+
+Once installed, open it up and go to File > Open Project.
+Open the file _SuperLemonadeFactory.oep
+
+From here you can open existing levels or create your own.
+
+
+
+If you have created a level you'd like to see in the game, email you .oel file to initials@initialscommand.com. Unfortunately, I do not yet have a way to upload or insert level files directly into the game.

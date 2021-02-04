@@ -1,0 +1,103 @@
+<?xml version="1.0" ?>
+<level>
+  <width>
+    1000
+  </width>
+  <height>
+    1000
+  </height>
+  <solids>
+    <rect h="1000" w="10" x="0" y="0"/>
+    <rect h="1000" w="10" x="990" y="0"/>
+    <rect h="60" w="1000" x="0" y="940"/>
+    <rect h="72" w="25" x="29" y="49"/>
+    <rect h="57" w="219" x="-11" y="326"/>
+    <rect h="48" w="299" x="-69" y="466"/>
+    <rect h="40" w="327" x="-119" y="591"/>
+    <rect h="79" w="26" x="117" y="845"/>
+    <rect h="53" w="271" x="177" y="22"/>
+    <rect h="16" w="98" x="261" y="245"/>
+    <rect h="19" w="150" x="196" y="465"/>
+    <rect h="80" w="87" x="257" y="681"/>
+    <rect h="51" w="392" x="23" y="880"/>
+    <rect h="15" w="171" x="402" y="159"/>
+    <rect h="35" w="348" x="356" y="288"/>
+    <rect h="41" w="27" x="430" y="529"/>
+    <rect h="59" w="374" x="373" y="654"/>
+    <rect h="73" w="89" x="444" y="880"/>
+    <rect h="31" w="378" x="545" y="114"/>
+    <rect h="61" w="362" x="448" y="277"/>
+    <rect h="54" w="36" x="629" y="393"/>
+    <rect h="63" w="96" x="641" y="638"/>
+    <rect h="35" w="372" x="538" y="807"/>
+    <rect h="27" w="77" x="910" y="61"/>
+    <rect h="58" w="184" x="801" y="202"/>
+    <rect h="59" w="211" x="790" y="456"/>
+    <rect h="25" w="347" x="734" y="748"/>
+    <rect h="37" w="386" x="735" y="884"/>
+  </solids>
+  <characters>
+    <player movementType="1" speed="40" x="277" y="671">
+      <node x="277" y="671"/>
+    </player>
+    <liselot movementType="1" speed="40" x="754" y="738">
+      <node x="754" y="738"/>
+    </liselot>
+  </characters>
+  <objects/>
+  <BGLayer1>
+    <level3_salesChart h="84" w="70" x="29" y="49"/>
+    <level3_painting2 h="84" w="70" x="-11" y="326"/>
+    <level3_painting1 h="84" w="70" x="-69" y="466"/>
+    <level3_painting1 h="84" w="70" x="-119" y="591"/>
+    <level3_painting1 h="84" w="70" x="117" y="845"/>
+    <level3_salesChart h="84" w="70" x="177" y="22"/>
+    <level3_painting1 h="84" w="70" x="261" y="245"/>
+    <level3_painting3 h="84" w="70" x="196" y="465"/>
+    <level3_painting2 h="84" w="70" x="257" y="681"/>
+    <level3_painting1 h="84" w="70" x="23" y="880"/>
+    <level3_salesChart h="84" w="70" x="402" y="159"/>
+    <level3_painting2 h="84" w="70" x="356" y="288"/>
+    <level3_painting3 h="84" w="70" x="430" y="529"/>
+    <level3_painting3 h="84" w="70" x="373" y="654"/>
+    <level3_painting1 h="84" w="70" x="444" y="880"/>
+    <level3_salesChart h="84" w="70" x="545" y="114"/>
+    <level3_painting3 h="84" w="70" x="448" y="277"/>
+    <level3_painting2 h="84" w="70" x="629" y="393"/>
+    <level3_painting1 h="84" w="70" x="641" y="638"/>
+    <level3_painting1 h="84" w="70" x="538" y="807"/>
+    <level3_painting2 h="84" w="70" x="910" y="61"/>
+    <level3_painting1 h="84" w="70" x="801" y="202"/>
+    <level3_painting2 h="84" w="70" x="790" y="456"/>
+    <level3_painting2 h="84" w="70" x="734" y="748"/>
+    <level3_painting3 h="84" w="70" x="735" y="884"/>
+  </BGLayer1>
+  <BGLayer2/>
+  <BGLayer3>
+    <sodaPack x="29" y="29"/>
+    <level3_desk1 x="-11" y="256"/>
+    <palettes x="-69" y="426"/>
+    <sodaPack x="-119" y="571"/>
+    <sodaPack x="117" y="825"/>
+    <sodaPack x="177" y="2"/>
+    <sugarBags x="261" y="205"/>
+    <sugarBags x="196" y="425"/>
+    <sugarBags x="257" y="641"/>
+    <palettes x="23" y="840"/>
+    <level3_desk2 x="402" y="89"/>
+    <sodaPack x="356" y="268"/>
+    <palettes x="430" y="489"/>
+    <sugarBags x="373" y="614"/>
+    <palettes x="444" y="840"/>
+    <level3_desk1 x="545" y="44"/>
+    <sugarBags x="448" y="237"/>
+    <level3_desk1 x="629" y="323"/>
+    <level3_desk2 x="641" y="568"/>
+    <palettes x="538" y="767"/>
+    <palettes x="910" y="21"/>
+    <sugarBags x="801" y="162"/>
+    <level3_desk1 x="790" y="386"/>
+    <level3_desk1 x="734" y="678"/>
+    <level3_desk2 x="735" y="814"/>
+  </BGLayer3>
+</level>

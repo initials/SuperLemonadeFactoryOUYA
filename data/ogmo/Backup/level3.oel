@@ -1,0 +1,68 @@
+<level>
+  <width>960</width>
+  <height>360</height>
+  <solids>
+    <rect x="0" y="0" w="960" h="10"/>
+    <rect x="0" y="10" w="10" h="350"/>
+    <rect x="10" y="300" w="950" h="60"/>
+    <rect x="30" y="120" w="110" h="20"/>
+    <rect x="130" y="260" w="50" h="40"/>
+    <rect x="180" y="50" w="60" h="20"/>
+    <rect x="230" y="230" w="50" h="70"/>
+    <rect x="280" y="50" w="40" h="180"/>
+    <rect x="370" y="10" w="70" h="130"/>
+    <rect x="380" y="260" w="310" h="40"/>
+    <rect x="600" y="140" w="90" h="120"/>
+    <rect x="740" y="140" w="50" h="20"/>
+    <rect x="760" y="160" w="10" h="140"/>
+    <rect x="830" y="140" w="130" h="160"/>
+    <rect x="950" y="10" w="10" h="130"/>
+  </solids>
+  <extraPlatforms>
+    <spike0 x="180" y="290" width="50" height="10"/>
+    <spike0 x="280" y="290" width="100" height="10"/>
+    <spike0 x="430" y="250" width="60" height="10"/>
+    <spike0 x="690" y="290" width="70" height="10"/>
+    <spike0 x="770" y="290" width="60" height="10"/>
+    <spike3 x="750" y="160" width="10" height="130"/>
+    <spike3 x="360" y="10" width="10" height="130"/>
+    <spike3 x="270" y="50" width="10" height="180"/>
+    <spike1 x="320" y="180" width="10" height="50"/>
+  </extraPlatforms>
+  <movingPlatforms>
+    <level1_specialBlock x="280" y="230" speed="40" movementType="1">
+      <node x="340" y="230"/>
+    </level1_specialBlock>
+    <level1_specialBlock x="140" y="50" speed="40" movementType="1">
+      <node x="140" y="140"/>
+    </level1_specialBlock>
+  </movingPlatforms>
+  <BGLayer1>
+    <L1_Shelf x="170" y="0"/>
+    <level1_windows x="450" y="60" width="290" height="54"/>
+  </BGLayer1>
+  <BGLayer2>
+    <cratesBox x="480" y="120"/>
+    <sugarBagsAndCrates x="110" y="170"/>
+  </BGLayer2>
+  <BGLayer3>
+    <sodaPack x="90" y="280"/>
+    <sodaPack x="750" y="120"/>
+    <sodaPack x="390" y="240"/>
+  </BGLayer3>
+  <objects>
+    <L1_SmallCrate x="629" y="115" width="32"/>
+    <exit x="833" y="69"/>
+  </objects>
+  <characters>
+    <player x="21" y="251" speed="40" movementType="1">
+      <node x="118" y="246"/>
+    </player>
+    <army x="31" y="73" speed="40" movementType="1">
+      <node x="112" y="76"/>
+    </army>
+    <liselot x="921" y="94" speed="40" movementType="1">
+      <node x="900" y="109"/>
+    </liselot>
+  </characters>
+</level>

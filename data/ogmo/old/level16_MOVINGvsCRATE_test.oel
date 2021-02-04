@@ -1,0 +1,45 @@
+<level>
+  <width>960</width>
+  <height>640</height>
+  <solids>
+    <rect x="0" y="480" w="960" h="160"/>
+    <rect x="50" y="290" w="80" h="30"/>
+    <rect x="130" y="380" w="30" h="30"/>
+    <rect x="230" y="290" w="80" h="30"/>
+    <rect x="260" y="380" w="30" h="30"/>
+    <rect x="390" y="300" w="70" h="30"/>
+    <rect x="390" y="380" w="30" h="30"/>
+    <rect x="540" y="310" w="40" h="50"/>
+    <rect x="580" y="330" w="20" h="30"/>
+    <rect x="620" y="370" w="10" h="40"/>
+    <rect x="630" y="380" w="10" h="30"/>
+    <rect x="640" y="390" w="10" h="20"/>
+    <rect x="650" y="400" w="10" h="10"/>
+    <rect x="680" y="430" w="30" h="50"/>
+  </solids>
+  <movingPlatforms>
+    <level1_specialPlatform x="60" y="410" speed="40" movementType="1">
+      <node x="350" y="410"/>
+    </level1_specialPlatform>
+  </movingPlatforms>
+  <objects>
+    <L1_SmallCrate x="74" y="236" width="32"/>
+    <L1_SmallCrate x="75" y="204" width="32"/>
+    <L1_SmallCrate x="277" y="237" width="32"/>
+    <L1_SmallCrate x="403" y="240" width="32"/>
+    <L1_SmallCrate x="409" y="213" width="32"/>
+    <L1_SmallCrate x="281" y="210" width="32"/>
+    <L1_SmallCrate x="76" y="264" width="32"/>
+    <L1_SmallCrate x="269" y="261" width="32"/>
+    <L1_SmallCrate x="402" y="268" width="32"/>
+    <L1_SmallCrate x="545" y="276" width="32"/>
+  </objects>
+  <characters>
+    <player x="50" y="239" speed="40" movementType="1">
+      <node x="92" y="247"/>
+    </player>
+    <liselot x="232" y="239" speed="40" movementType="1">
+      <node x="259" y="236"/>
+    </liselot>
+  </characters>
+</level>

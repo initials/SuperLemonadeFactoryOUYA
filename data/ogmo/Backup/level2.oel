@@ -1,0 +1,78 @@
+<level>
+  <width>480</width>
+  <height>1000</height>
+  <solids>
+    <rect x="0" y="0" w="10" h="1000"/>
+    <rect x="10" y="940" w="470" h="60"/>
+    <rect x="30" y="770" w="30" h="30"/>
+    <rect x="70" y="110" w="220" h="50"/>
+    <rect x="80" y="820" w="220" h="30"/>
+    <rect x="90" y="300" w="250" h="40"/>
+    <rect x="110" y="700" w="290" h="40"/>
+    <rect x="250" y="160" w="40" h="80"/>
+    <rect x="330" y="410" w="150" h="20"/>
+    <rect x="470" y="0" w="10" h="410"/>
+    <rect x="470" y="430" w="10" h="510"/>
+  </solids>
+  <extraPlatforms>
+    <spike0 x="330" y="400" width="140" height="10"/>
+    <spike3 x="320" y="410" width="10" height="20"/>
+    <spike2 x="330" y="430" width="140" height="10"/>
+    <spike0 x="160" y="690" width="50" height="10"/>
+    <LargeCrate x="260" y="240"/>
+  </extraPlatforms>
+  <movingPlatforms>
+    <level1_specialBlock x="410" y="160" speed="40" movementType="1">
+      <node x="410" y="300"/>
+    </level1_specialBlock>
+    <level1_specialBlock x="50" y="300" speed="40" movementType="1">
+      <node x="50" y="410"/>
+    </level1_specialBlock>
+    <level1_specialBlock x="90" y="410" speed="40" movementType="1">
+      <node x="90" y="500"/>
+    </level1_specialBlock>
+    <level1_specialBlock x="160" y="500" speed="40" movementType="1">
+      <node x="280" y="500"/>
+    </level1_specialBlock>
+    <level1_specialBlock x="320" y="500" speed="40" movementType="1">
+      <node x="320" y="620"/>
+    </level1_specialBlock>
+    <level1_specialBlock x="290" y="120" speed="40" movementType="1">
+      <node x="370" y="120"/>
+    </level1_specialBlock>
+  </movingPlatforms>
+  <BGLayer1>
+    <level1_windows x="30" y="620" width="300" height="54"/>
+    <level1_windows x="40" y="190" width="180" height="54"/>
+    <level1_windows x="260" y="370" width="180" height="54"/>
+  </BGLayer1>
+  <BGLayer2>
+    <L1_Shelf x="180" y="620"/>
+  </BGLayer2>
+  <BGLayer3>
+    <palettes x="400" y="900"/>
+    <cratesBox x="80" y="760"/>
+    <palettes x="330" y="660"/>
+    <palettes x="180" y="260"/>
+    <sugarBags x="240" y="260"/>
+    <sodaPack x="160" y="90"/>
+  </BGLayer3>
+  <objects>
+    <L1_SmallCrate x="352" y="675" width="32"/>
+    <exit x="71" y="38"/>
+  </objects>
+  <characters>
+    <player x="364" y="895" speed="40" movementType="1">
+      <node x="402" y="895"/>
+    </player>
+    <army x="80" y="776" speed="40" movementType="1">
+      <node x="250" y="779"/>
+    </army>
+    <liselot x="273" y="655" speed="40" movementType="1">
+      <node x="317" y="659"/>
+    </liselot>
+    <worker x="99" y="260" speed="40" movementType="1">
+      <node x="298" y="258"/>
+    </worker>
+  </characters>
+</level>

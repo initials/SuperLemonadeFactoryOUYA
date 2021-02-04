@@ -1,0 +1,132 @@
+<?xml version="1.0" ?>
+<level>
+  <width>
+    2000
+  </width>
+  <height>
+    2000
+  </height>
+  <solids>
+    <rect h="2000" w="10" x="0" y="0"/>
+    <rect h="2000" w="10" x="1990" y="0"/>
+    <rect h="60" w="2000" x="0" y="1940"/>
+    <rect h="90" w="80" x="20" y="40"/>
+    <rect h="40" w="280" x="-80" y="550"/>
+    <rect h="60" w="110" x="80" y="930"/>
+    <rect h="60" w="360" x="-60" y="1270"/>
+    <rect h="110" w="230" x="-30" y="1640"/>
+    <rect h="90" w="350" x="330" y="50"/>
+    <rect h="80" w="130" x="430" y="460"/>
+    <rect h="50" w="200" x="400" y="920"/>
+    <rect h="80" w="210" x="390" y="1290"/>
+    <rect h="100" w="120" x="430" y="1660"/>
+    <rect h="100" w="110" x="800" y="90"/>
+    <rect h="100" w="80" x="900" y="470"/>
+    <rect h="50" w="230" x="790" y="810"/>
+    <rect h="110" w="140" x="840" y="1190"/>
+    <rect h="100" w="330" x="690" y="1630"/>
+    <rect h="30" w="330" x="1080" y="90"/>
+    <rect h="120" w="150" x="1220" y="420"/>
+    <rect h="100" w="240" x="1170" y="840"/>
+    <rect h="110" w="300" x="1190" y="1260"/>
+    <rect h="120" w="60" x="1330" y="1650"/>
+    <rect h="100" w="60" x="1710" y="30"/>
+    <rect h="110" w="70" x="1600" y="430"/>
+    <rect h="110" w="360" x="1520" y="830"/>
+    <rect h="110" w="100" x="1630" y="1190"/>
+    <rect h="70" w="390" x="1480" y="1700"/>
+  </solids>
+  <characters>
+    <liselot movementType="1" speed="40" x="-10" y="1630">
+      <node x="-10" y="1630"/>
+    </liselot>
+    <player movementType="1" speed="40" x="450" y="1650">
+      <node x="450" y="1650"/>
+    </player>
+  </characters>
+  <extraPlatforms>
+    <level3_spike3 height="60" width="10" x="-70" y="1270"/>
+    <level3_spike3 height="110" width="10" x="-40" y="1640"/>
+    <level3_spike2 height="10" width="350" x="330" y="140.0"/>
+    <level3_spike2 height="10" width="130" x="430" y="540.0"/>
+    <level3_spike2 height="10" width="200" x="400" y="970.0"/>
+    <level3_spike3 height="50" width="10" x="390" y="920"/>
+    <level3_spike2 height="10" width="120" x="430" y="1760.0"/>
+    <level3_spike3 height="100" width="10" x="420" y="1660"/>
+    <level3_spike3 height="100" width="10" x="790" y="90"/>
+    <level3_spike1 height="100" width="10" x="910.0" y="90"/>
+    <level3_spike0 height="10" width="80" x="900" y="460"/>
+    <level3_spike3 height="100" width="10" x="890" y="470"/>
+    <level3_spike1 height="100" width="10" x="980.0" y="470"/>
+    <level3_spike3 height="50" width="10" x="780" y="810"/>
+    <level3_spike3 height="110" width="10" x="830" y="1190"/>
+    <level3_spike1 height="110" width="10" x="980.0" y="1190"/>
+    <level3_spike2 height="10" width="330" x="690" y="1730.0"/>
+    <level3_spike0 height="10" width="330" x="690" y="1620"/>
+    <level3_spike2 height="10" width="330" x="1080" y="120.0"/>
+    <level3_spike2 height="10" width="240" x="1170" y="940.0"/>
+    <level3_spike1 height="110" width="10" x="1490.0" y="1260"/>
+    <level3_spike0 height="10" width="60" x="1710" y="20"/>
+    <level3_spike1 height="100" width="10" x="1770.0" y="30"/>
+    <level3_spike2 height="10" width="70" x="1600" y="540.0"/>
+    <level3_spike0 height="10" width="100" x="1630" y="1180"/>
+  </extraPlatforms>
+  <objects>
+    <exit x="-40" y="1190"/>
+  </objects>
+  <BGLayer1>
+    <level3_painting2 h="84" w="70" x="20" y="40"/>
+    <level3_painting3 h="84" w="70" x="-80" y="550"/>
+    <level3_painting3 h="84" w="70" x="80" y="930"/>
+    <level3_painting2 h="84" w="70" x="-60" y="1270"/>
+    <level3_painting1 h="84" w="70" x="-30" y="1640"/>
+    <level3_painting2 h="84" w="70" x="330" y="50"/>
+    <level3_painting1 h="84" w="70" x="430" y="460"/>
+    <level3_salesChart h="84" w="70" x="400" y="920"/>
+    <level3_painting1 h="84" w="70" x="390" y="1290"/>
+    <level3_painting3 h="84" w="70" x="430" y="1660"/>
+    <level3_salesChart h="84" w="70" x="800" y="90"/>
+    <level3_painting3 h="84" w="70" x="900" y="470"/>
+    <level3_salesChart h="84" w="70" x="790" y="810"/>
+    <level3_painting3 h="84" w="70" x="840" y="1190"/>
+    <level3_painting1 h="84" w="70" x="690" y="1630"/>
+    <level3_painting2 h="84" w="70" x="1080" y="90"/>
+    <level3_salesChart h="84" w="70" x="1220" y="420"/>
+    <level3_painting2 h="84" w="70" x="1170" y="840"/>
+    <level3_painting3 h="84" w="70" x="1190" y="1260"/>
+    <level3_salesChart h="84" w="70" x="1330" y="1650"/>
+    <level3_painting3 h="84" w="70" x="1710" y="30"/>
+    <level3_painting1 h="84" w="70" x="1600" y="430"/>
+    <level3_painting3 h="84" w="70" x="1520" y="830"/>
+    <level3_painting1 h="84" w="70" x="1630" y="1190"/>
+    <level3_painting2 h="84" w="70" x="1480" y="1700"/>
+  </BGLayer1>
+  <BGLayer2/>
+  <BGLayer3>
+    <palettes x="20" y="0"/>
+    <level3_desk2 x="-80" y="480"/>
+    <level3_desk3 x="80" y="860"/>
+    <level3_desk2 x="-60" y="1200"/>
+    <level3_desk2 x="-30" y="1570"/>
+    <sugarBags x="330" y="10"/>
+    <palettes x="430" y="420"/>
+    <sugarBags x="400" y="880"/>
+    <palettes x="390" y="1250"/>
+    <level3_desk3 x="430" y="1590"/>
+    <sugarBags x="800" y="50"/>
+    <level3_desk1 x="900" y="400"/>
+    <level3_desk2 x="790" y="740"/>
+    <level3_desk3 x="840" y="1120"/>
+    <level3_desk3 x="690" y="1560"/>
+    <level3_desk3 x="1080" y="20"/>
+    <level3_desk3 x="1220" y="350"/>
+    <palettes x="1170" y="800"/>
+    <level3_desk1 x="1190" y="1190"/>
+    <palettes x="1330" y="1610"/>
+    <palettes x="1710" y="-10"/>
+    <level3_desk3 x="1600" y="360"/>
+    <sugarBags x="1520" y="790"/>
+    <palettes x="1630" y="1150"/>
+    <level3_desk1 x="1480" y="1630"/>
+  </BGLayer3>
+</level>
